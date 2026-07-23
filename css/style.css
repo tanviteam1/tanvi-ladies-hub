@@ -43,13 +43,12 @@ header h1{
 /* Banner */
 
 .banner{
-    padding:15px;
+    padding:0;
 }
 
 .banner img{
     width:100%;
-    border-radius:15px;
-    box-shadow:0 10px 30px rgba(0,0,0,.25);
+    border-radius:0;
 }
 
 /* Categories */
@@ -62,6 +61,8 @@ header h1{
 }
 
 .card{
+    border:2px solid #d4af37;
+}    
     background:white;
     border-radius:15px;
     padding:25px;
