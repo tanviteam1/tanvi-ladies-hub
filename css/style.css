@@ -14,17 +14,11 @@ body{
 /* Header */
 
 header{
-    background:
-    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
-    url("../shop.jpg.png");
-
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-    color:white;
-    text-align:center;
-    padding:80px 20px;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 .logo{
@@ -50,14 +44,6 @@ header h1{
 
 /* Banner */
 
-.banner{
-    padding:0;
-}
-
-.banner img{
-    width:100%;
-    border-radius:0;
-}
 
 /* Categories */
 
