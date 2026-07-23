@@ -1,1 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
 
+body{
+    background:#f8f8f8;
+    color:#333;
+}
+
+header{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.logo{
+    width:120px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+
+.tagline{
+    margin-top:10px;
+    font-size:20px;
+}
+
+.banner img{
+    width:100%;
+    display:block;
+}
+
+.categories{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.whatsapp{
+    text-align:center;
+    margin:40px;
+}
+
+.whatsapp a{
+    background:#25D366;
+    color:white;
+    padding:15px 35px;
+    text-decoration:none;
+    font-size:22px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.whatsapp a:hover{
+    background:#128C7E;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:40px;
+}
