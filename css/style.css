@@ -189,3 +189,23 @@ header{
     text-align:center;
     color:white;
 }
+.about{
+    background:#111;
+    color:white;
+    padding:50px 25px;
+    text-align:center;
+}
+
+.about h2{
+    color:#FFD700;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:900px;
+    margin:auto;
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:15px;
+}
