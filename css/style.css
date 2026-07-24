@@ -15,18 +15,22 @@ body{
 
 header{
     min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
 
     background:
-        linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)),
-        url("../shop.jpg.png");
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("../shop.png");
 
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
 }
 
 .logo{
