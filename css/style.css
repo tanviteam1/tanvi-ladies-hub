@@ -209,3 +209,49 @@ header{
     line-height:1.8;
     margin-bottom:15px;
 }
+.new-arrivals{
+    padding:60px 20px;
+    background:#f8f8f8;
+    text-align:center;
+}
+
+.new-arrivals h2{
+    color:#b8860b;
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:18px;
+    color:#666;
+    margin-bottom:30px;
+}
+
+.arrival-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.arrival-card{
+    background:#fff;
+    border:2px solid #d4af37;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.arrival-card:hover{
+    transform:translateY(-5px);
+}
+
+.arrival-card h3{
+    color:#111;
+    margin-bottom:10px;
+}
+
+.arrival-card p{
+    color:#b8860b;
+    font-weight:bold;
+}
