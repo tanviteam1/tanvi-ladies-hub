@@ -329,3 +329,80 @@ header{
 .whatsapp-btn:hover{
     background:#128C7E;
 }
+/* Products */
+
+.products{
+    padding:60px 25px;
+    text-align:center;
+    background:#fff;
+}
+
+.products h2{
+    color:#b8860b;
+    font-size:36px;
+    margin-bottom:30px;
+}
+
+
+.product-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+
+}
+
+
+.product-card{
+
+    background:white;
+    border:2px solid #d4af37;
+    border-radius:15px;
+    padding:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+
+.product-card img{
+
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+
+}
+
+
+.product-card h3{
+
+    margin:15px 0;
+    color:#111;
+
+}
+
+
+.product-card p{
+
+    font-size:22px;
+    color:#b8860b;
+    font-weight:bold;
+
+}
+
+
+.product-card a{
+
+    display:inline-block;
+    margin-top:15px;
+    background:#25D366;
+    color:white;
+
+    padding:12px 25px;
+    border-radius:30px;
+
+    text-decoration:none;
+    font-weight:bold;
+
+}
