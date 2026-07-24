@@ -286,3 +286,46 @@ header{
 .social a:hover{
     transform:scale(1.05);
 }
+/* Contact Buttons */
+
+.contact-buttons{
+    text-align:center;
+    padding:60px 20px;
+    background:#f8f8f8;
+}
+
+.contact-buttons h2{
+    font-size:34px;
+    color:#111;
+    margin-bottom:30px;
+}
+
+.call-btn,
+.whatsapp-btn{
+    display:inline-block;
+    margin:10px;
+    padding:18px 35px;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.call-btn{
+    background:#FFD700;
+    color:#111;
+}
+
+.call-btn:hover{
+    background:#E6C200;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+    color:white;
+}
+
+.whatsapp-btn:hover{
+    background:#128C7E;
+}
