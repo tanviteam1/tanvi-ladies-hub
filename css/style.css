@@ -171,3 +171,22 @@ header h1{
     font-size:22px;
 }
 }
+
+header{
+    min-height:100vh !important;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("../shop.png") !important;
+
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
